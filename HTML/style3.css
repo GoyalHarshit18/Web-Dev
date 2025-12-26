@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Whole{
+    padding: 30px;
+    max-width: 900px;
+    border-radius: 10px;
+    background-color: #1c2541;
+    margin: 40px auto;
+    box-shadow: 0px 0px 12px rgba(0,0,0,0.5);
+}
+
+
+body {
+    background-color: #0b132b;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    line-height: 1.6;
+}
+
+
+
+.header{
+    text-align: center;
+    padding-bottom: 20px;
+    color: #5bc0be;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ececec;
+}
+
+.movie-poster {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(255,255,255,0.2);
+}
+
+.Intro h2{
+    font-size: 20px;
+    color: #5bc0be;
+    margin-top: 25px;
+    border-left: 4px solid #5bc0be;
+    padding-left: 10px;
+}
+
+.Details p {
+    margin-top: 8px;
+    color: #d6d6d6;
+}
+
+.Cast {
+    margin-top: 10px;
+    padding-left: 20px;
+}

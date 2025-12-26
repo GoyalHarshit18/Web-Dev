@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="blue-box">
+        <h1>Indian Institute of Information Technology, Kota</h1>
+        <a href="/">Home</a>
+        <a href="/">Courses</a>
+        <a href="/">Admission</a>
+        <a href="/">Contact</a>
+    </div>
+
+    <section id="Home" >
+        <h2>Welcome to IIIT Kota</h2>
+    </section>
+
+    <section id="courses">
+            <h2>Courses Offered</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Course Code</th>
+                        <th>Course Name</th>
+                        <th>Duration</th>
+                        <th>Annual Fees</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>CS101</td>
+                        <td>Computer Science</td>
+                        <td>4 Years</td>
+                        <td>₹90,000</td>
+                    </tr>
+                    <tr>
+                        <td>IT102</td>
+                        <td>B.Sc. Information Technology</td>
+                        <td>4 Years</td>
+                        <td>₹90,000</td>
+                    </tr>
+                    <tr>
+                        <td>EC201</td>
+                        <td>B.E. Electronics</td>
+                        <td>4 Years</td>
+                        <td>₹85,000</td>
+                    </tr>
+                    <tr>
+                        <td>ME202</td>
+                        <td>B.E. Mechanical</td>
+                        <td>4 Years</td>
+                        <td>₹80,000</td>
+                    </tr>
+                    <tr>
+                        <td>BC301</td>
+                        <td>B.Com. (Honours)</td>
+                        <td>3 Years</td>
+                        <td>₹40,000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Facilities</h2>
+            <ul>
+                <li>Library</li>
+                <li>Hostel (Male & Female)</li>
+                <li>Wi-Fi Campus</li>
+                <li>Computer Labs</li>
+                <li>Canteen</li>
+                <li>Placement & Training Center</li>
+            </ul>
+        </section>
+
+        <section id="Admission">
+            <h2>Admission Form</h2>
+            <form action="/submit" method="post">
+                <fieldset>
+                    <label for="name">Full Name:</label><br>
+                    <input type="text" id="name" name="name" required><br><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="text" id="email" name="email" required><br><br>
+
+                    <div>
+                        <label for="mobile">Mobile Number:</label>
+                        <input type="number" id="mobile" name="mobile" placeholder="e.g. 9876543210">
+                    </div>
+
+                    <label>Gender:</label>
+                    <div class="gender-options">
+                        <label><input type="radio" name="gender" value="Male"> Male</label>
+                        <label><input type="radio" name="gender" value="Female"> Female</label>
+                        <label><input type="radio" name="gender" value="Other"> Other</label>
+                    </div><br>
+
+                    <div>
+                        <label for="dob">Date of Birth:</label>
+                        <input type="date" id="dob" name="dob">
+                    </div><br>
+
+                    <div>
+                    <label for="course">Choose Course:</label>
+                    <select id="course" name="course">
+                        <option value="">-- Select a course --</option>
+                        <option value="CS101"> Computer Science</option>
+                        <option value="IT102">Information Technology</option>
+                        <option value="EC201">Electronics</option>
+                        <option value="ME202"> Mechanical</option>
+                        <option value="BC301">B.Com.(Honours)</option>
+                    </select>
+                </div><br>
+
+                <div>
+                    <label for="address">Address:</label><br>
+                    <textarea id="address" name="address" rows="4" cols="40"
+                        placeholder="fill address here..."></textarea>
+                </div>
+                <br>
+                <legend>Hobbies (select any):</legend>
+                <input type="checkbox" id="hobby_reading" name="hobbies" value="reading">
+                <label for="hobby_reading">Reading</label>
+                <input type="checkbox" id="hobby_sports" name="hobbies" value="sports">
+                <label for="hobby_sports">Sports</label>
+                <input type="checkbox" id="hobby_music" name="hobbies" value="music">
+                <label for="hobby_music">Music</label>
+                <input type="checkbox" id="hobby_travel" name="hobbies" value="travel">
+                <label for="hobby_travel">Travel</label>
+                <br>
+                <br>
+                </fieldset>
+
+
+            </form>
+
+
+        </section>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+/* Reset default margins and paddings */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Body styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+.logo {
+  color: blue;
+}
+/* Header styling */
+header {
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+/* Table styling */
+header table {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 900px;
+}
+
+/* Table cell styling */
+header td {
+  vertical-align: middle;
+  padding: 10px;
+}
+
+/* Logo styling */
+header img {
+  width: 65px;
+  height: auto;
+  margin-right: 15px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+/* Title and subtitle styling */
+header .title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+header .subtitle {
+  font-size: 1rem;
+}
+
+header .description {
+  font-size: 0.85rem;
+  opacity: 0.9;
+}
